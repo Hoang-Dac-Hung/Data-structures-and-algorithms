@@ -61,7 +61,7 @@ Node *KhoiTaoNode() {
 	Input_ThongTin(hs);
 	Node* p = new Node;
 	if (p == NULL) {
-		cout << "full ram ko the tao thêm\n";
+		cout << "full ram ko the tao thÃªm\n";
 		return 0;
 	}
 	p->data = hs;
@@ -300,7 +300,7 @@ void ReadFile(List &l){
         fileIn >> hs->diemtb;
         Node* p = new Node;
         if (p == NULL) {
-		cout << "full ram ko the tao thêm\n";
+		cout << "full ram ko the tao thÃªm\n";
 		}
 		p->data = hs;
 		p->next = NULL;
